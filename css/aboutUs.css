@@ -1,0 +1,145 @@
+h1{
+    font-weight: 600;
+}
+.banner{
+    width: 100%;
+    height: 460px;
+    background-color: #0054A7;
+
+}
+.banner-cont{
+    width: 100%;
+    padding-top: 20%;
+    color: #fff;
+}
+.banner-cont b{
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 60px;
+}
+.banner-cont p{
+    font-size: 20px;
+}
+.all-cont{
+    background: #f0f3fa;
+    padding-bottom: 90px;
+}
+/*公司简介*/
+.company-profile{
+    padding-top: 94px;
+
+}
+.company-profile h1{
+    text-align: center;
+}
+.company-profile .company-logo{
+    text-align: center;
+    padding-top: 46px;
+    padding-bottom: 28px;
+}
+.company-profile p{
+    font-size: 16px;
+    line-height: 30px;
+}
+/*君林文化*/
+.culture{
+    margin-top: 94px;
+}
+.culture .row{
+    background-color: #fff;
+
+}
+.culture .row:hover{
+    box-shadow: 0px 0px 25px #D6E2F0;
+}
+.culture h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.culture .row{
+    margin-bottom: 25px;
+}
+.culture .col-md-6{
+    padding: 0;
+}
+.culture .culture-cont{
+    padding-left: 64px;
+}
+.culture .culture-cont h4{
+    padding-top: 36px;
+    font-size: 20px;
+    color: #2b4158;
+}
+.culture .culture-cont h4:first-child{
+    padding-top: 46px;
+}
+.culture .culture-cont p{
+    font-size: 16px;
+    color: #637685;
+    line-height: 30px;
+}
+.culture img{
+    vertical-align: bottom;
+}
+/*发展经历*/
+.home-about-wrap{
+    background: url("../images/about_bg.jpg") center no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 69px;
+}
+.home-about-wrap h1{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.home-about-wrap .home-des{
+    font-size: 16px;
+    line-height: 30px;
+}
+.home-more{
+    display: inline-block;
+    color: #146ad9;
+    margin-top: 15px;
+    font-size: 16px;
+}
+@media (max-width: 1200px) {
+    .culture .culture-cont h4{
+        padding-top: 30px;
+    }
+    .culture .culture-cont h4:first-child{
+        padding-top: 40px;
+    }
+}
+@media (max-width: 992px) {
+    .banner-cont{
+        padding-top: 30%;
+    }
+    .culture .culture-cont{
+        padding-left: 34px;
+    }
+    .culture .culture-cont h4{
+        padding-top: 14px;
+    }
+    .culture .culture-cont h4:first-child{
+        padding-top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .culture .row{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .culture .culture-cont{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 36px;
+    }
+    .culture .culture-cont h4{
+        padding-top: 36px;
+    }
+    .culture .culture-cont h4:first-child{
+        padding-top: 46px;
+    }
+
+
+}
