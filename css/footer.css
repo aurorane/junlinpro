@@ -68,18 +68,21 @@
     font-size: 18px;
     font-weight: normal;
 }
-.footer dd{
-    color: #CDDFE9;
+.footer dd a{
+    color: #9CACBF;
     font-size: 16px;
     line-height: 30px;
+}
+.footer dd a:hover{
+    color: #fff;
 }
 .footer dl em{
     width: 28px;
     height: 2px;
     background: #999;
     display: block;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 22px;
+    margin-bottom: 22px;
 }
 .foot-copy{
     text-align: center;
@@ -90,28 +93,39 @@
     color: #999999;
     line-height: 55px;
 }
+.footer-first{
+
+}
+.footer-second{
+    display: none;
+}
 
 @media screen and (max-width: 768px){
     .footer-first{
-        padding-bottom: 30px;
+        display: none;
+    }
+    .footer-second{
+        display: block;
+        margin-top: 20px;
     }
     .footer dt{
         font-size: 15px;
     }
-    .footer dd{
+    .footer dd a{
         font-size: 13px;
     }
     .foot-logo{
-        display: inline-block;
-        width: 30%;
+        display: block;
+        width: 50%;
     }
     .foot-junlin{
-        display: inline-block;
-        width: 25%;
+        display:block;
+        width: 50%;
     }
     .foot-contact{
-        display: inline-block;
-        width: 40%;
+        float: right;
+        width: 46%;
+        margin-top: -44px;
     }
     .foot-junlin h2{
         font-size: 20px;
@@ -123,4 +137,10 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .footer .col-xs-6{
+        width: 30%;
+        margin: 32px 10% 0;
+    }
+
+
 }

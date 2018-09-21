@@ -1,32 +1,42 @@
-h1{
-    font-weight: 600;
-}
 .banner{
     width: 100%;
-    height: 460px;
+    height: 540px;
     background-color: #0054A7;
-
 }
 .banner-cont{
     width: 100%;
-    padding-top: 20%;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
     color: #fff;
 }
-.banner-cont b{
-    font-size: 34px;
-    font-weight: normal;
-    line-height: 60px;
+.banner-cont h1{
+    color: #fff;
 }
-.banner-cont p{
+.banner-word{
+    padding-top: 240px;
+}
+.banner-word p{
     font-size: 20px;
+    line-height: 64px;
 }
+.banner-img{
+    position: relative;
+}
+.banner-img img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 400px;
+}
+
 .all-cont{
-    background: #f0f3fa;
+    background: #EFF3F9;
     padding-bottom: 90px;
 }
 /*公司简介*/
 .company-profile{
-    padding-top: 94px;
+    padding-top: 96px;
 
 }
 .company-profile h1{
@@ -40,6 +50,8 @@ h1{
 .company-profile p{
     font-size: 16px;
     line-height: 30px;
+    padding: 0 100px;
+    color: #333333;
 }
 /*君林文化*/
 .culture{
@@ -50,11 +62,12 @@ h1{
 
 }
 .culture .row:hover{
-    box-shadow: 0px 0px 25px #D6E2F0;
+    box-shadow: 0px 0px 25px #C9D3E3;
+    /*D6E2F0*/
 }
 .culture h1{
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 64px;
 }
 .culture .row{
     margin-bottom: 25px;
@@ -71,37 +84,42 @@ h1{
     color: #2b4158;
 }
 .culture .culture-cont h4:first-child{
-    padding-top: 46px;
+    padding-top: 48px;
 }
 .culture .culture-cont p{
     font-size: 16px;
     color: #637685;
-    line-height: 30px;
+    line-height: 40px;
 }
 .culture img{
     vertical-align: bottom;
 }
 /*发展经历*/
 .home-about-wrap{
-    background: url("../images/about_bg.jpg") center no-repeat;
-    background-size: cover;
     text-align: center;
     margin-top: 69px;
+}
+.home-about-wrap .home-about-cont{
+    background: url("../images/map.png") center no-repeat;
+    background-size: 100%;
+    text-align: center;
 }
 .home-about-wrap h1{
     text-align: center;
     margin-bottom: 24px;
 }
-.home-about-wrap .home-des{
-    font-size: 16px;
-    line-height: 30px;
+#yearList li{
+    color: #647687;
 }
-.home-more{
-    display: inline-block;
-    color: #146ad9;
-    margin-top: 15px;
-    font-size: 16px;
+.year-dot{
+    background-color: #d1d5d9;
 }
+#btnLeft,#btnRight{
+    background: transparent;
+    box-shadow: none;
+    line-height: normal;
+}
+
 @media (max-width: 1200px) {
     .culture .culture-cont h4{
         padding-top: 30px;
@@ -111,9 +129,6 @@ h1{
     }
 }
 @media (max-width: 992px) {
-    .banner-cont{
-        padding-top: 30%;
-    }
     .culture .culture-cont{
         padding-left: 34px;
     }
@@ -125,6 +140,22 @@ h1{
     }
 }
 @media (max-width: 768px) {
+
+    .banner-cont{
+        display: block;
+        text-align: center;
+    }
+    .banner-word{
+        padding-top: 160px;
+    }
+    .banner-img img{
+        position: relative;
+        width: 200px;
+        height: auto;
+        bottom: -20px;
+    }
+
+
     .culture .row{
         width: 100%;
         margin: 20px auto;
@@ -138,8 +169,10 @@ h1{
         padding-top: 36px;
     }
     .culture .culture-cont h4:first-child{
-        padding-top: 46px;
+        padding-top: 48px;
     }
 
-
+    .company-profile p{
+        padding: 0 16px;
+    }
 }

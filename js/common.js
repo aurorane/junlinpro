@@ -9,12 +9,12 @@ $(function () {
                 timer=setInterval(function(){
                     var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
                     var ispeed=Math.floor(-scrollTop/6);
-                    console.log(ispeed)
+                    // console.log(ispeed)
                     if(scrollTop==0){
                         clearInterval(timer);
                     }
                     document.documentElement.scrollTop=document.body.scrollTop=scrollTop+ispeed;
-                },100)
+                },50)
             };
         }else {
             top.style.display='none'

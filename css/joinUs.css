@@ -1,0 +1,187 @@
+.banner{
+    height: 540px;
+    background-color: #0054A7
+}
+
+.banner-cont{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.banner-cont h1{
+    color: #fff;
+}
+.banner-word{
+    padding-top: 240px;
+}
+.banner-word p{
+    font-size: 20px;
+    line-height: 64px;
+}
+.banner-img{
+    position: relative;
+}
+.banner-img img{
+    position: absolute;
+    right: 0;
+    bottom: 58px;
+    height: 326px;
+}
+
+/*招聘信息*/
+.join{
+    padding-top: 94px;
+}
+.join h1{
+    text-align: center;
+    margin-bottom:64px ;
+}
+
+.nav-tabs{
+    border: none;
+    width: 20%;
+    float: left;
+}
+.nav-tabs > li{
+    float: none;
+}
+
+.nav-tabs > li{
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px #E2E5E9;
+}
+.nav-tabs > li > a:hover{
+    background-color: #00A0E9;
+    color: #fff;
+}
+.nav-tabs > li > a{
+    background-color: #fff;
+    transition: none;
+    margin-right: 0;
+    border-radius: 0;
+    border: none;
+    height: 64px;
+    line-height: 64px;
+    padding: 0 0 0 40px;
+    color: #000;
+}
+.nav-tabs > li:first-child > a{
+    padding-left: 20px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    border: none;
+    background-color: #00A0E9;
+    color: #fff;
+}
+
+.tab-content{
+    width: 76%;
+    float: left;
+    margin-left: 4%;
+}
+.tab-pane{
+
+}
+.tab-pane li{
+    background: #fff;
+    padding: 26px 32px 10px;
+    box-shadow: 0px 0px 10px #E2E5E9;
+    margin-bottom: 20px;
+}
+.post-title{
+    position: relative;
+
+}
+.post-title p{
+    color:#647687 ;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+.post-title i{
+    position: absolute;
+    right: 20px;
+    top: 22px;
+}
+
+
+.post-des{
+    border-top: 1px solid #ccc;
+    display: none;
+}
+.post-des h5{
+    font-weight: 600;
+    margin: 6px auto;
+}
+.post-des h5:first-child{
+    margin-top: 18px;
+}
+.post-des p{
+    color:#647687;
+    font-size: 14px;
+    line-height: 24px;
+}
+.post-des button{
+    border: none;
+    background: #00A0E9;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+/*联系我们*/
+.contact{
+    margin-top: 64px;
+    background: url("../images/contactUs.png") no-repeat center;
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+    text-align: center;
+}
+.contact h1{
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 34px;
+}
+.contact button{
+    padding: 12px 24px;
+    background: transparent;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .banner-cont{
+        display: block;
+        text-align: center;
+    }
+    .banner-word{
+        padding-top: 160px;
+    }
+    .banner-img img{
+        position: relative;
+        width: 200px;
+        height: auto;
+        bottom: -20px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .nav-tabs{
+        width: 100%;
+    }
+    .tab-content{
+        width: 100%;
+        float: left;
+        margin-left: 0;
+    }
+}

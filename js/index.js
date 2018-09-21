@@ -4,7 +4,7 @@ $(function () {
 
     //关于我们
     $("#timeLine").timeLine({
-        w: 860
+        w: 900
     });
 
     //解决方案部分
@@ -12,6 +12,13 @@ $(function () {
         $(this).children('.sol-first').hide().siblings().show()
     }).mouseleave(function () {
         $(this).children('.sol-second').hide().siblings().show()
+    })
+
+    //核心技术
+    $('.core .core-content').mouseenter(function () {
+        $(this).children('.core-cont').hide().siblings().show()
+    }).mouseleave(function () {
+        $(this).children('.core-cont-hover').hide().siblings().show()
     })
 
     //首页banner内容
@@ -59,24 +66,24 @@ var moveTo = function (width,height) {
             'left':random3,
             'fontSize':arr3[n%arr.length],
             'opacity':fontOpacity3[n%fontOpacity3.length]
-        },3800)
+        },6000)
         $('.one2').animate({
             'top':random2,
             'left':random2,
             'fontSize':arr2[n%arr.length],
             'opacity':fontOpacity2[n%fontOpacity2.length]
-        },3600)
+        },4500)
         $('.one3').animate({
             'top':random3,
             'left':random3,
             'fontSize':arr3[n%arr.length]
-        },3300)
+        },5200)
         $('.two').animate({
             'top':random6,
             'left':random5,
             'fontSize':arr1[n%arr.length],
             'opacity':fontOpacity1[n%fontOpacity1.length]
-        },4000)
+        },5700)
         $('.two1').animate({
             'top':random4 ,
             'left':random1,
@@ -88,13 +95,13 @@ var moveTo = function (width,height) {
             'left':random1,
             'fontSize':arr1[n%arr.length],
             'opacity':fontOpacity1[n%fontOpacity1.length]
-        },4500)
+        },4800)
         $('.two3').animate({
             'top':random4,
             'left':random5,
             'fontSize':arr3[n%arr.length],
             'opacity':fontOpacity3[n%fontOpacity3.length]
-        },3500)
+        },5400)
         $('.three').animate({
             'top':random2 ,
             'left':random5,
@@ -106,7 +113,7 @@ var moveTo = function (width,height) {
             'left':random5,
             'fontSize':arr2[n%arr.length],
             'opacity':fontOpacity2[n%fontOpacity2.length]
-        },4000)
+        },4600)
         $('.three3').animate({
             'top':random6 ,
             'left':random1,
@@ -118,19 +125,19 @@ var moveTo = function (width,height) {
             'left':random6,
             'fontSize':arr3[n%arr.length],
             'opacity':fontOpacity3[n%fontOpacity3.length]
-        },5000)
+        },5700)
         $('.four').animate({
             'top':random2 ,
             'left':random3,
             'fontSize':arr2[n%arr.length],
             'opacity':fontOpacity2[n%fontOpacity2.length]
-        },5000)
+        },5300)
         $('.four2').animate({
             'top':random1 ,
             'left':random4,
             'fontSize':arr[n%arr.length],
             'opacity':fontOpacity[n%fontOpacity.length]
-        },3000)
+        },5700)
         n++;
     },1000)
 }

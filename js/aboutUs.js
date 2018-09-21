@@ -1,5 +1,5 @@
 $(function () {
     $("#timeLine").timeLine({
-        w: 860
+        w: 900
     });
 })

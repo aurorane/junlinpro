@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="author" content="The site is power by 云栈互联 www.bjyzhl.com">
     <title>关于君林 - 北京君林科技股份有限公司|专注声音科技</title>
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
@@ -17,19 +16,18 @@
 <div id="header">
     <div class="container-fluid container">
         <div id="logo" class="pull-left">
-            <!--<h1>fdsf</h1>-->
-             <img src="images/small/headlogo.png" alt="">
+            <a href="index.html"><img src="images/small/headlogo.png" alt=""></a>
         </div>
         <nav id="nav-menu-container">
             <ul class="nav-menu">
-                <li class="menu-active"><a href="#">首页</a></li>
-                <li class="menu-has-children"><a href="#">关于我们</a>
+                <li><a href="index.html">首页</a></li>
+                <li class="menu-has-children menu-active"><a href="aboutUs.html">关于我们</a>
                     <ul>
                         <i class="triangle"></i>
-                        <li><a href="#">关于君林</a></li>
+                        <li><a href="aboutUs.html">关于君林</a></li>
                         <li><a href="#">团队介绍</a></li>
-                        <li><a href="#">新闻动态</a></li>
-                        <li><a href="#">加入我们</a></li>
+                        <li><a href="news.html">新闻动态</a></li>
+                        <li><a href="joinUs.html">加入我们</a></li>
                     </ul>
                 </li>
                 <li class="menu-has-children"><a href="">核心技术</a>
@@ -43,17 +41,22 @@
                 </li>
                 <li><a href="#">解决方案</a></li>
                 <li><a href="#">智能产品</a></li>
-                <li><a href="#">联系我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
             </ul>
         </nav>
     </div>
 </div>
 <div class="banner">
     <div class="container">
-       <div class="banner-cont">
-           <b>关于我们</b>
-           <p>君林专注提供更好的声音产品</p>
-       </div>
+      <div class="banner-cont">
+          <div class="banner-word">
+              <h1>关于我们</h1>
+              <p>君林专注提供更好的声音产品</p>
+          </div>
+          <div class="banner-img">
+              <img src="images/aboutUsbanner.png" alt="">
+          </div>
+      </div>
     </div>
 </div>
 
@@ -88,12 +91,12 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <img src="images/aboutUs2.jpg" alt="" width="100%">
+                    <img src="images/aboutUs2.png" alt="" width="100%">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <img src="images/aboutUs1.jpg" alt="" width="100%">
+                    <img src="images/aboutUs1.png" alt="" width="100%">
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="culture-cont">
@@ -111,10 +114,8 @@
     </div>
     <!--发展经历-->
     <div class="home-about-wrap">
-        <div class="container">
+        <div class="container home-about-cont">
             <h1>发展经历</h1>
-        </div>
-        <div class="container">
             <div id="timeLine">
                 <ul id="yearList">
                     <li class="year-active">2017年12月<i class="year-dot"></i></li>
@@ -127,8 +128,10 @@
                 <div class="dotted-line"></div>
 
                 <div id="cList">
-                    <a href="javascript:;" id="btnLeft"><img src="Public/Home/images/prev.png"/></a>
-                    <a href="javascript:;" id="btnRight"><img src="Public/Home/images/next.png"/></a>
+                    <a href="javascript:;" id="btnLeft"><img src="images/small/prev.png" alt=""></a>
+                    <a href="javascript:;" id="btnRight"><img src="images/small/next.png" alt=""></a>
+                    <!--<a href="javascript:;" id="btnLeft"><img src="Public/Home/images/prev.png"/></a>-->
+                    <!--<a href="javascript:;" id="btnRight"><img src="Public/Home/images/next.png"/></a>-->
                     <div class="cCenter">
                         <ul id="cUl">
                             <li>
@@ -179,7 +182,7 @@
     <div class="container">
         <div class="row footer-cont">
             <div class="col-md-4 col-sm-4 col-xs-12 footer-first">
-                <div class="foot-logo"><img src="images/small/footlogo.png" alt=""></div>
+                <div class="foot-logo"><a href="index.html"><img src="images/small/footlogo.png" alt=""></a></div>
                 <div class="foot-junlin">
                     <p>让生活更便捷</p>
                 </div>
@@ -204,42 +207,69 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-sm-2 col-xs-3">
+            <div class="col-md-2 col-sm-2 col-xs-6">
                 <dl>
                     <dt>产品</dt>
                     <em></em>
-                    <dd>产品一</dd>
-                    <dd>产品一</dd>
-                    <dd>产品一</dd>
+                    <dd><a href="#">产品一</a></dd>
+                    <dd><a href="#">产品一</a></dd>
+                    <dd><a href="#">产品一</a></dd>
                 </dl>
             </div>
-            <div class="col-md-2 col-sm-2 col-xs-3">
+            <div class="col-md-2 col-sm-2 col-xs-6">
                 <dl>
                     <dt>解决方案</dt>
                     <em></em>
-                    <dd>智能家居</dd>
-                    <dd>金融认证</dd>
-                    <dd>移动设备</dd>
+                    <dd><a href="#">智能家居</a></dd>
+                    <dd><a href="#">金融认证</a></dd>
+                    <dd><a href="#">移动设备</a></dd>
                 </dl>
             </div>
-            <div class="col-md-2 col-sm-2 col-xs-3">
+            <div class="col-md-2 col-sm-2 col-xs-6">
                 <dl>
                     <dt>核心技术</dt>
                     <em></em>
-                    <dd>声学</dd>
-                    <dd>声纹识别</dd>
-                    <dd>大数据</dd>
+                    <dd><a href="#">声学</a></dd>
+                    <dd><a href="#">声纹识别</a></dd>
+                    <dd><a href="#">大数据</a></dd>
                 </dl>
             </div>
-            <div class="col-md-2 col-sm-2 col-xs-3">
+            <div class="col-md-2 col-sm-2 col-xs-6">
                 <dl>
                     <dt>关于我们</dt>
                     <em></em>
-                    <dd>关于君林</dd>
-                    <dd>团队介绍</dd>
-                    <dd>新闻动态</dd>
-                    <dd>加入我们</dd>
+                    <dd><a href="aboutUs.html">关于君林</a></dd>
+                    <dd><a href="#">团队介绍</a></dd>
+                    <dd><a href="news.html">新闻动态</a></dd>
+                    <dd><a href="joinUs.html">加入我们</a></dd>
                 </dl>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12 footer-second">
+                <div class="foot-logo"><a href="index.html"><img src="images/small/footlogo.png" alt=""></a></div>
+                <div class="foot-junlin">
+                    <p>让生活更便捷</p>
+                </div>
+                <div class="foot-contact">
+                    <ul>
+                        <li>
+                            <img src="images/small/phone.png" alt="" width="24">
+                            <p class="hover-des">400-667-9800</p>
+                        </li>
+                        <li>
+                            <img src="images/small/email.png" alt="" width="24">
+                            <p class="hover-des">jl@junlinpro.com</p>
+                        </li>
+                        <li>
+                            <img src="images/small/weixin.png" alt="" width="24">
+                            <p class="erwei"><img src="images/small/weixinma.jpg" alt=""></p>
+                        </li>
+                        <li>
+                            <img src="images/small/weibo.png" alt="" width="24">
+                            <p class="erwei"><img src="images/small/weiboma.png" alt=""></p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="foot-copy">
@@ -251,7 +281,7 @@
 
 <!--返回顶部-->
 <div class="backUp" id="backUp">
-    <p>返回顶部</p>
+    <img src="images/small/backTop.png" alt="">
 </div>
 <script src="js/public/jquery-3.3.1.min.js"></script>
 <script src="js/public/superfish.min.js"></script>

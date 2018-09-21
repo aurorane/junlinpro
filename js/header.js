@@ -113,7 +113,8 @@ jQuery(document).ready(function ($) {
             $('#mobile-nav-toggle i').css('color','#0054A7')
             $('#mobile-nav-toggle').css('top','-4px')
 
-
+            $('#logo img').attr('src','images/small/headlogo1.png')
+            $('#header #logo').css('margin-top','-28px')
 
         } else {
             $('#header').removeClass('header-scrolled');
@@ -125,6 +126,9 @@ jQuery(document).ready(function ($) {
 
             $('#mobile-nav-toggle i').css('color','#fff')
             $('#mobile-nav-toggle').css('top','13px')
+
+            $('#logo img').attr('src','images/small/headlogo.png')
+            $('#header #logo').css('margin-top','-18px')
         }
     });
 });

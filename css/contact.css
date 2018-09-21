@@ -1,0 +1,134 @@
+.banner{
+    width: 100%;
+    height: 540px;
+    background-color: #0054A7;
+}
+.banner-cont{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.banner-cont h1{
+    color: #fff;
+}
+.banner-word{
+    padding-top: 240px;
+}
+.banner-word p{
+    font-size: 20px;
+    line-height: 64px;
+}
+.banner-img{
+    position: relative;
+}
+.banner-img img{
+    position: absolute;
+    right: 0;
+    bottom: -46px;
+    height: 446px;
+}
+
+/*中间内容*/
+.all-cont{
+    background: #EFF3F9;
+    padding-bottom: 62px;
+}
+/*地图*/
+.map{
+    margin-top: 62px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #E2E5E9;
+    border: 10px solid #fff;
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+}
+
+/*所有联系方式*/
+.contact-all{
+    padding-top: 30px;
+}
+.contact-cont{
+    background: #fff;
+    box-shadow: 0px 0px 10px #E2E5E9;
+}
+
+.contact-cont .col-md-6{
+    margin: 80px auto 60px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+.contact-cont  .small-icon{
+    margin-right: 22px;
+}
+.contact-cont .small-des{
+    height: 120px;
+}
+.contact-cont .small-des h3{
+    margin-bottom: 10px;
+}
+.contact-cont .small-des p{
+    font-size: 14px;
+    color: #647687;
+    line-height: 26px;
+    word-break: break-all;
+}
+.contact-cont .small-des span{
+    color: #00a0e9;
+}
+/*微信微博*/
+.wei-talk{
+    margin-top: 30px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #E2E5E9;
+}
+.wei-talk .col-md-6{
+    margin: 34px auto;
+    padding-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+.wei-talk  .small-icon{
+    margin-right: 22px;
+}
+.wei-talk .small-des h3{
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+.wei-talk .small-des div{
+    border: 10px solid #e7eaec;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .banner-cont{
+        display: block;
+        text-align: center;
+    }
+    .banner-word{
+        padding-top: 160px;
+    }
+    .banner-img img{
+        position: relative;
+        height: 240px;
+        bottom: -20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .contact-cont .col-md-6{
+        padding:0 44px;
+    }
+    .wei-talk .col-md-6{
+        padding:0 44px;
+    }
+}

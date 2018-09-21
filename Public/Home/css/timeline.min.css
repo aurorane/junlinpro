@@ -5,7 +5,7 @@
 #yearList:after,.container-li:after{content: "";display: table;clear: both;}
 #yearList li{float: left;cursor: pointer;text-align: center;font-size: 16px;padding: 10px 40px;}
 .year-dot{width: 10px; height: 10px; border-radius: 5px;background-color: #e3eaf7;margin: 22px auto;display: block;}
-.dotted-line{border-bottom:dashed 1px  #becdf2;position: relative;top: -38px;z-index: 0;}
+.dotted-line{border-bottom:dashed 1px  #b8cfe6;position: relative;top: -38px;z-index: 0;}
 #cList{width: 100%;position: relative;margin-top:10px;margin-bottom:40px;}
 #btnLeft,#btnRight{cursor:pointer;width:70px;height:70px;background:#fff no-repeat center;position:absolute;border-radius:100%;display:inline-block;box-shadow:0 0 15px rgba(24,55,117,.1);text-align:center;line-height:70px;}
 #btnLeft img,#btnRight img{display: inline-block;margin-top:0px;}
