@@ -33,6 +33,12 @@ $(function () {
         moveTo(width, height)
     }
 
+    $('.arrowToDown').click(function (e) {
+        // var t = $(window).scrollTop();
+        var  t = $(this).offset().top;
+        console.log(t)
+        $('body,html').animate({'scrollTop':t+50},1000)
+    })
 
 })
 

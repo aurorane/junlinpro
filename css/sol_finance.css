@@ -1,0 +1,54 @@
+.banner{
+    width: 100%;
+    height: 540px;
+    background: url("../images/aboutUs1.png") no-repeat center;
+    background-size:cover;
+    /*background-color: #0054A7*/
+}
+.banner .banner-word{
+    padding-top: 200px;
+    color: #A5B8D7;
+}
+.banner .banner-word h1{
+    color: #DDE4EF;
+}
+.banner .banner-word p {
+    font-size: 18px;
+    line-height: 26px;
+}
+.banner .banner-word p:nth-child(2){
+    margin-top: 10px;
+}
+.banner .banner-word button{
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+
+
+.user{
+    padding-top: 94px;
+}
+.user .use-cont{
+    margin-top: 30px;
+    background: #ffffff;
+    box-shadow: 0px 0px 25px #C9D3E3;
+    padding: 20px;
+    border-radius: 4px;
+}
+.user .use-cont h4{
+    padding-bottom: 10px;
+}
+.user .use-cont p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+}
+
+@media (max-width: 680px){
+    .banner{
+        text-align: center;
+    }
+}

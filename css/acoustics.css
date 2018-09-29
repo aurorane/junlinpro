@@ -1,0 +1,52 @@
+.key{
+    padding-top: 50px;
+}
+hr{
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.key_cont{
+    margin-top: 40px;
+}
+.key_cont .key_des{
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 10px #ccc;
+    margin-bottom: 30px;
+}
+.key_cont .key_des img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.key_cont .key_des p{
+    padding-bottom: 40px;
+}
+
+
+.scene_des{
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 15px;
+}
+.scene_des h4{
+    padding-bottom: 10px;
+}
+.scene_des p{
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .key_cont .col-md-3{
+        width: 50%;
+        float: left;
+    }
+}
+
+
+
+
+
+
+
